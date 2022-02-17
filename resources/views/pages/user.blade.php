@@ -1,4 +1,4 @@
 @extends('layouts.app')
 @section('content')
-    {$users}
+    @include('partials.leUser')
 @endsection
