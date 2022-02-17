@@ -18,4 +18,4 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', [WelcomeController::class, 'welcome']);
 Route::get('/user', [UserController::class, 'user']);
-Route::get('/classe', [ClasseController::class, 'classe']);
+Route::get('/classe', [ClasseController::class, 'classe'])->name('classe');

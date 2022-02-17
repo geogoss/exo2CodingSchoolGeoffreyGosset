@@ -23,7 +23,7 @@
                 <a class="nav-link" href="/user">User</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/classe">Classe</a>
+                <a class="nav-link" href="{{route('classe')}} ">Classe</a>
               </li>
             </ul>
           </div>
